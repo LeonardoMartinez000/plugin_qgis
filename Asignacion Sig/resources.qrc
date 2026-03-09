@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Asignacion Usuarios" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
