@@ -1,0 +1,30 @@
+name: Publicar Plugin QGIS
+
+on:
+  push:
+    tags:
+      - 'v*' # Se activa cuando creas un tag de versión (ej: v1.0.1)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Crear ZIP del plugin
+        run: |
+          cd plugin_folder
+          zip -r ../Asignacion_Sig.zip .
+          
+      - name: Actualizar XML de repositorio
+        run: |
+          # Aquí un script simple que genera el plugins.xml 
+          # indicando la nueva versión y el link al ZIP
+          echo "Generando index.xml..."
+          # (Este paso se puede detallar más con un script python)
+
+      - name: Deploy a GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: . # Sube los archivos generados a la rama gh-pages
