@@ -15,7 +15,7 @@ jobs:
       - name: Crear ZIP del plugin
         run: |
           cd plugin_folder
-          zip -r ../Asignacion_Sig.zip .
+          zip -r ../Asignacion Sig.zip .
           
       - name: Actualizar XML de repositorio
         run: |
