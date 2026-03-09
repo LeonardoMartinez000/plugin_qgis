@@ -13,7 +13,7 @@ email=leonardo.martinez@servinformacion.com
 about=Herramienta que asigna usuarios a las base de datos
 
 tracker=http://bugs
-repository=http://repo
+repository=https://github.com/LeonardoMartinez000/plugin_qgis/edit/main/Asignacion%20Sig
 # End of mandatory metadata
 
 # Recommended items:
