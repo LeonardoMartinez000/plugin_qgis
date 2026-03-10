@@ -1,9 +1,9 @@
-<?xml version = "1.0"?>
+<?xml version="1.0"?>
 <plugins>
     <pyqgis_plugin name="Asignacion Sig v3.2" version="1.0.1">
         <description>Herramienta de geocodificación</description>
         <version>1.0.1</version>
         <author_name>Leonardo Martinez</author_name>
-        <download_url>https://github.com//LeonardoMartinez000/plugin_qgis/raw/main/Asignacion Sig.zip</download_url>
+        <download_url>https://github.com/LeonardoMartinez000/plugin_qgis/raw/main/Asignacion%20Sig.zip</download_url>
     </pyqgis_plugin>
 </plugins>
