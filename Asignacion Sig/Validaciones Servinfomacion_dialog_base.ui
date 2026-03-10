@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Gestión de Permisos - Asignación SIG v3.3</string>
+   <string>Gestión de Permisos - Asignación SIG v4.0</string>
   </property>
   <property name="styleSheet">
    <string>QDialog {
